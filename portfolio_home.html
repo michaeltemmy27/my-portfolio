@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olajide's Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header id="home">
+            <nav>
+                <div class="nav-conatiner">
+                    <div class="logo">T Code</div>
+                    <div class="hamburger">
+                        <i class="fas fa-bars" onclick="toggleMenu()"></i>
+                    </div>
+                    
+                </div>
+                <ul class="nav-links">
+                    <li id="nav-link"><a href="#home">Home</a></li>
+                    <li id="nav-link"><a href="#about">About</a></li>
+                    <li id="nav-link"><a href="#courses">Courses</a></li>
+                    <li id="nav-link"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        <div id="home-text">
+            <h1 class="home-text">I'm Oguntade Temi, I am a Fullstack Developer</h1>
+            <p class="home-italics">World of Programmers</p>
+        </div>
+    </header>
+<!-- -------------------About Section-------------------------- -->
+<section id="about">
+    <h1 class="h1">About Us</h1>
+    <div class="about1">
+        <div class="about">
+            <img src="images/istockphoto-1401460590-170667a.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate dolores 
+                dolorum delectus, minima reprehenderit est sed. Ab repellendus aliquam numquam, 
+                molestias sint cupiditate doloribus voluptas perspiciatis, distinctio aut fugiat 
+                eveniet minima eaque repudiandae similique dolores. Maxime veniam at tempore? 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium enim consectetur
+                 ducimus esse nesciunt rem dicta laudantium tenetur vel minima atque reiciendis, dolorum
+                 nulla ratione nisi qui voluptate nobis magnam error. Veritatis a obcaecati est delectus.
+                  Natus molestias cupiditate, at fugiat fuga ipsum ducimus! </p>
+                    
+        </div>
+    </div>
+</section>
+<!-- -------------------------Courses Section--------------------------- -->
+    <section id="courses">
+        <h1 id="heading">Our Courses</h1>
+            <div class="courses">
+                <div class="course">
+                    <img src="images/1_iYuX_75JwacWxe5gV8jKbw.jpeg">
+                    <figcaption><a class="prod-name">Web Design</a></figcaption>
+                </div>
+                <div class="course">
+                    <img src="images/MIT-Medtech-Adapt-01-press.jpg">
+                    <figcaption><a class="prod-name">Software Develpoment</a></figcaption>
+                </div>
+                <div class="course">
+                    <img src="images/8bEfxy8skS6fUVZnfaLWxj.jpg">
+                    <figcaption><a class="prod-name">Ethical Hacking</a></figcaption>
+                </div>
+            </div>
+    </section>
+<!-- -------------------------------------Contact Section---------------------- -->
+<section id="contact">
+    <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+                    
+    </div>
+
+    <footer>
+        <p>Copyright by Oguntade Temi</p>
+
+        
+    </footer>
+
+
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</section>
+</body>
+</html>
